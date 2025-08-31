@@ -1,0 +1,8 @@
+services:
+  basic-todo-app:
+    image: simhadribharath/basic-todo-app:latest   # your Docker Hub image
+    container_name: basic-todo-app
+    ports:
+      - "8080:8080"
+    restart: always
+
